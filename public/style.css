@@ -4,12 +4,68 @@ body, h1, ul, li {
   margin: 0;
 }
 .wrapper {
-        max-width: 1022px;
+        max-width: 1000px;
         margin: 0 auto;
         padding: 0 4%;
         background-color: white;
 
 }
+.outer{
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 4%;
+  
+  
+  
+  
+}
+.article-type-poat{
+  margin: 0 auto;
+  margin-top: 3%;
+  
+
+  
+
+}
+.article-inner{
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+  background: #f5f4f4;
+  
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 1px;
+
+}
+.article-header .article-title {
+  font-weight: 700;
+  display: block;
+  margin-bottom: 8px;
+}
+.article-header{
+  padding: 20px 20px 0;
+}
+.article-title{
+    margin: 0 auto;
+    color: #4a4a4a;
+    text-decoration: none;
+    line-height: 1.3em;
+    overflow: hidden;
+
+}
+.article-entry {
+  color: #595959;
+  padding: 0 20px;
+  line-height: 1.6em;
+}
+#main{
+  display: grid;
+  padding: 1%;
+  justify-content: center;
+  margin-top: 1px;
+
+  }
+
+
 * {
   box-sizing: border-box;
 }
@@ -47,8 +103,8 @@ input {
 /* 漢堡按鈕 */
 label {
   float: right;
-  padding-right: 50px;
-  line-height: 50px;
+  padding-right: 10px;
+  line-height: 10px;
   cursor: pointer;
 }
 label img {
@@ -81,7 +137,7 @@ label img {
 .menu {
   max-height: 0;
   overflow: hidden;
-  transition: 0.2s;
+  transition: 0.1s;
   /* 動畫秒數 */
 }
 
@@ -90,7 +146,7 @@ input:checked ~ .menu {
 }
 
 /* mediaquery */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   label {
     
     display: none;
@@ -108,4 +164,13 @@ input:checked ~ .menu {
   .menu li a {
     padding: 0 15px;
   }
-}
+  
+  
+  
+  
+   
+     
+  }
+ 
+    
+
