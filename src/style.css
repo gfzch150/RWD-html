@@ -4,14 +4,14 @@ body, h1, ul, li {
   margin: 0;
 }
 .wrapper {
-        max-width: 1000px;
+        max-width: 1300px;
         margin: 0 auto;
         padding: 0 4%;
         background-color: white;
 
 }
 .outer{
-  max-width: 1000px;
+  max-width: 1300px;
   margin: 0 auto;
   padding: 0 4%;
   
