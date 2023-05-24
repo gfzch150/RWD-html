@@ -146,7 +146,7 @@ input:checked ~ .menu {
 }
 
 /* mediaquery */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1000px) {
   label {
     
     display: none;
